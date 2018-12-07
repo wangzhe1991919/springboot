@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /projectName
+  tomcat:
+    uri-encoding: UTF-8
+
+#常量注入值测试
+propTestStr: 阿萨德
+constant:
+  aStr: A字符串
+  bStr: B字符串
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  profiles:
+    active: dev #加载开发环境的配置文件
+  jpa:
+    hibernate:
+      ddl-auto: update
