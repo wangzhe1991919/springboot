@@ -72,7 +72,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.21</version>
+            <version>8.0.28</version>
         </dependency>
         <!-- Thymeleaf是一款用于渲染XML/XHTML/HTML5内容的模板引擎 -->
         <!--<dependency>
